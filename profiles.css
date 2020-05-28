@@ -1,0 +1,174 @@
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* BREAK POINTS */
+
+@media only screen and (min-width: 319px)  {
+
+	/* BACKGROUND CSS */
+	 .tab-layer {
+		 height: 100vh;
+     width: 70vw;
+		 position: absolute;
+		 background-color: white;
+	 }
+	 .blue-fake{
+		 border: 2px solid blue;
+		 top: 2em;
+	 }
+	 .green-fake{
+		 border: 2px solid green;
+		 top: 2.7em;
+     left: 12.5vw;
+	 }
+	 .red-fake{
+		 border: 2px solid red;
+		 top: 3.3em;
+     left: 25vw;
+	 }
+
+	 .fake-text {
+		 margin: 0.5em;
+	 }
+	 .blue-text-fake{
+		 color: blue;
+	 }
+	 .green-text-fake{
+		 color: green;
+	 }
+	 .red-text-fake{
+		 color:red;
+	 }
+	/* BACKGROUND CSS  */
+
+	.artist-page-container {
+		position: absolute;
+    top: 4.5em;
+		width: 99%;
+		height: 90vh;
+		border: 3px solid;
+		background-color: white;
+		justify-self: center;
+		overflow-y: scroll;
+		/* display: none; */
+	}
+	.image-wrapper{
+		display: grid;
+		margin-top: 1.5em;
+	}
+	.artist-work {
+		position: relative;
+		top: 1vh;
+    width: 85vw;
+		justify-self: center;
+	}
+	.image-caption {
+    position: relative;
+    height: 1.2em;
+    top: 1.5em;
+    left: 4vw;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-style: italic;
+}
+	.button-container{
+		display: grid;
+		justify-items: center;
+		left: unset;
+	}
+	.add-item-button {
+		position: relative;
+    width: 69px;
+    height: 23px;
+    border: 3px solid;
+    border-radius: 37px;
+		background-color: white;
+	}
+	.profile-spacer{
+		height: 23vh;
+		width: 99vw;
+	}
+}
+
+@media only screen and (min-width: 567px) and (min-height: 320px)  {
+	.green-fake{}
+	.red-fake{}
+	.artist-page-container{
+	top: 4.5em;
+	width: 99.5%
+	}
+	.profile-spacer {
+		height: 23vh;
+		width: 99vw;
+	}
+}
+
+@media (min-width: 800px) {
+  .add-item-button {
+		left: -2.5em;
+	}
+}
+
+
+
+@media only screen and (min-width: 374px) and (min-height: 811px)  {
+	.artist-page-container {
+   height: 100%;
+	 width: 99%
+	}
+	.artist-work.portrait {
+     /* width: 52vh; */
+		 width: 38vh
+	}
+
+	.image-wrapper {
+		margin-top:5.5em;
+	}
+}
+
+
+@media only screen and (min-width: 520px)  {
+	.artist-page-container {
+    top:5em;
+	}
+
+	.artist-work.portrait {
+     width: 50vh;
+	}
+
+	.image-wrapper {
+		margin-top:0.5em;
+	}
+	.image-caption {
+		top:3.6em;
+	}
+	.profile-spacer{
+		height: 43vh;
+	}
+}
+
+@media only screen and (min-width: 676px)  {
+	.artist-page-container {
+    top:5em;
+		width: 99.7%
+	}
+
+	.artist-work.portrait {
+     width: 46vh;
+	}
+	.artist-work.landscape {
+		width: 50vw;
+	}
+	.image-caption {
+		top:3.6em;
+	}
+}
+
+@media only screen and (min-width: 813px)  {
+	.artist-page-container {
+    top:7em;
+		width: 99.7%
+	}
+	.artist-work.landscape {
+		max-width: 890px;
+	}
+}

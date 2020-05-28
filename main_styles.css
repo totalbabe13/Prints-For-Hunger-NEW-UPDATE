@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/v2.0 | 20110126License: none (public domain)*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	box-sizing: border-box;
+}
+
+
+p {
+  font-family: sans-serif;
+}
+body{
+	/* background-color: #eceaea; */
+	/* background-color: white; */
+	height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* BREAK POINTS */
+@media (min-width: 319px) {
+
+  .base_black {
+	  height: 100vh;
+	  width: 100vw;
+	  border: 2px solid;
+	  background-color: #ffffff;
+  }
+
+	}
+	.snipcart-checkout{
+		border: unset;
+		background-color: transparent;
+	}
+	.cart {
+		height: 2em;
+		/* background-color: black; */
+	}
+	.blue {
+    position: fixed;
+    width: 83vw;
+    height: 100vh;
+    border: 2px solid blue;
+    top: 3em;
+    left: 0.5em;
+    background-color: white;
+    z-index: 1;
+
+}
+	.blue-text {
+		color: blue;
+		position: relative;
+		top: 1em;
+    left: 2em;
+	}
+
+	.green {
+    position: fixed;
+    width: 83vw;
+    height: 100vh;
+    border: 2px solid #00ff01;
+    background-color: white;
+    top: 5.5em;
+    left: 1.5em;
+    z-index: 2;
+}
+
+
+	.red {
+    position: fixed;
+    width: 83vw;
+    height: 100vh;
+    border: 2px solid red;
+    background-color: white;
+    top: 8em;
+    left: 3em;
+    z-index: 2;
+    overflow: scroll;
+		overflow-x: hidden;
+  }
+
+}
+
+
+@media (min-width: 812px) {
+	header {
+		font-size: 2.8em;
+    top: unset;
+		font-family: sans-sans-serif;
+	}
+	.apple {
+		height: 3em;
+	}
+	.banana {
+		height: 3em;
+	}
+	.grapes {
+		height: 3em;
+	}
+
+	.cart {
+		height: 3em;
+	}
+   .blue {
+     width: 92vw;
+		  height: 84vh;
+	 }
+
+	 .green {
+     width: 92vw;
+		 height: 84vh;
+	 }
+
+	 .red {
+		 width: 92vw;
+		 height: 84vh;
+	 }
+}
+/*
+@media (min-width: - -px) {}
+
+@media (min-width: - -px) {}
+
+@media (min-width: - -px) {}
+
+@media (min-width: - -px) {}
+*/

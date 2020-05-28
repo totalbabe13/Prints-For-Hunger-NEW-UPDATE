@@ -1,0 +1,39 @@
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* BREAK POINTS */
+@media (min-width: 319px) {
+	.red {
+		/* display: none; */
+	}
+	.red-text {
+  		color: red;
+  	}
+	}
+	.red-text.title {
+		position: relative;
+		top: 1em;
+		left: 2em;
+	}
+
+	.red-text.sub-title {
+		width: 95%;
+    margin: 0 auto;
+	}
+
+	.red-text.about {
+    position: relative;
+    top: 1.4em;
+    margin: 0 auto 3em auto;
+    text-align: justify;
+    width: 95%;
+		/* text-indent: 1em; */
+  }
+	.name {
+		margin-left: 2em;
+	}
+	.spacer{
+		width: 100vw;
+    height: 7em;
+	}
+
+}
