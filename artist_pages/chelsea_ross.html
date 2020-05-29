@@ -5,76 +5,62 @@
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<meta content="Prints For Hunger raises money for the Chicago Food Bank" name="description">
 	<link href="http://printsforhunger.org/" rel="canonical">
-	<link href="sample_image1.jpg" rel="shortcut icon" type="image/x-icon">
-  <!-- FACEBOOK -->
-	<meta content="PRINTS FOR HUNGER" property="og:title">
-	<meta content="Insert about burb // here" property="og:description">
-	<meta content="website" property="og:type">
-	<meta content="insert image url // here, at least 200 x 300 px" property="og:image">
-  <!-- Twitter -->
-	<meta content="summary_large_image" property="twitter:card">
-	<meta content="http://printsforhunger.org/" property="twitter:url">
-	<meta content="PRINTS FOR HUNGER" property="twitter:title">
-	<meta content="Insert about burb // here" property="twitter:description">
-	<meta content="insert image url // here, at least 200 x 300 px" property="twitter:image">
-	<script src="scripts.js">
-	</script>
-  <!-- SNIPCART STYLES  -->
+	<link href="blue_banana.png" rel="shortcut icon" type="image/x-icon">
+
+	</script><!-- SNIPCART STYLES  -->
 	<link href="https://cdn.snipcart.com/themes/v3.0.11/default/snipcart.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-	<link href="artist_page.css" rel="stylesheet"><!-- SWIPER STYLES  -->
-	<link href="https://unpkg.com/swiper/css/swiper.css" rel="stylesheet">
-	<link href="https://unpkg.com/swiper/css/swiper.min.css" rel="stylesheet">
-	<title>Chelsea Ross | PRINTS FOR HUNGER </title>
+	<link href="../styles/main_styles.css" rel="stylesheet">
+	<link href="../styles/profiles.css"    rel="stylesheet">
+	<link href="../styles/base_black.css"  rel="stylesheet">
+
+	<title>Chelsea Ross | PRINTS FOR HUNGER</title>
 </head>
 <body>
-	<div class="main-wrapper">
-
+	<div class="base_black">
 		<!-- - - - - - HEADER TEMPLATE - - - - - -->
-		<div class="header-and-cart-container">
-			 <header class="breathing">
-				 PRINTS FOR HUNGER
-			 </header>
-			 <button class="snipcart-checkout">
-				 <img src="svg_cart.svg" class="cart" alt="">
-			 </button>
-		</div>
-	 <section >
-		 <p class="info-blurb breathing">Print sale fundraiser for the Greater Chicago Food Depository</p>
-	 </section>
-	 <nav class="nav-container breathing">
-		 <a class="nav-item about breathing" href="../about.html">About</a>
-		 <a class="nav-item artist breathing" href="../artist_list.html">Artists</a>
-		 <a class="nav-item browse breathing" href="../landing.html">Browse</a>
-	 </nav>
-	 <!-- - - - - - END - HEADER TEMPLATE - - - - - -->
+			<section class="nav-wrapper">
+				<a href="../index.html"><header>PRINTS FOR HUNGER</header></a>
+					<button class="snipcart-checkout">
+						<img src="../cart.png" class="cart" alt="">
+					</button>
+			</section>
 
-		<section class="artist-page-container">
+			<div class="blue-fake tab-layer">  <p class="fake-text blue-text-fake">BROWSE</p></div>
+			<div class="green-fake tab-layer"> <p class="fake-text green-text-fake">ARTIST</p></div>
+			<div class="red-fake tab-layer">   <p class="fake-text red-text-fake">ABOUT</p></div>
+		<!-- - - - - - END - HEADER TEMPLATE - - - - - -->
 
-			<div class="horizontal-image-container">
-           <img class="artist-image landscape" src="../images/chelsea_ross.jpg" alt="Chelsea Ross,Venus Lily, 2019">
-        </div>
+		<div class="artist-page-container">
+			<!-- IMAGE FILE choose? -->
+						<div class="image-wrapper"><img class="artist-work landscape" src="../images/chelsea_ross.jpg"alt="Chelsea Ross, Venus Lily, 2019"></div>
 
-			<figcaption class="image-caption breathing">
-			<a class="artist-web-link" target="_blank" rel="noopener noreferrer" href="http://www.chelseaross.net/">"Venus Lily", Chelsea Ross</a>
-			</figcaption>
-			<div class="button-container">
-				<figcaption class="image-caption breathing">
-					2019
-				</figcaption>
+      <!-- CAPTION INFO - NAME TITLE DATE // WEBSITE  -->
+			<figcaption class="image-caption title">"Venus Lily"</figcaption>
+			<figcaption class="image-caption artist-name"><a target="_blank" rel="noopener noreferrer" href="http://www.chelseaross.net/"> Chelsea Ross</a></figcaption>
+			<figcaption class="image-caption date">2019</figcaption>
+
+			<!-- ADD TO CART BUTTON DATA -->
+			<div class="image-caption button-container">
 				<button class="snipcart-add-item add-item-button breathing"
-				   data-item-description="Brief blurb about photo here"
-				   data-item-id="1" data-item-image="../images/chelsea_ross.jpg"
-				   data-item-name="ITEM TITLE"
-	         data-item-price="100.00"
-				   data-item-url="/">Add Item</button>
+          data-item-description="2019"
+          data-item-id=         "49"
+          data-item-image=      "../images/chelsea_ross.jpg"
+          data-item-name=       "&quot;Venus Lily&quot;, Chelsea Ross"
+          data-item-price=      "100.00"
+          data-item-url=        "../path_to/chelsea_ross.jpg">
+					Add ♥
+				  </button>
 			</div>
-			<div class="spacer"></div>
-		</section>
+
+			<!-- SPACER FORMATTER -->
+			<div class="profile-spacer"></div>
+		</div>
 	</div>
-  <!-- SNIPCART SCRIPTS -->
+
+		<!-- SCRIPTS AND API KEYs  -->
 	<div data-api-key="YmVkNDVkZjktYmY4OS00M2RkLWJlMmYtOWY4MDkwZjY1N2MxNjM3MjM1MzAyNjUyODIwMDgx" hidden="" id="snipcart"></div>
 	<script src="https://cdn.snipcart.com/themes/v3.0.11/default/snipcart.js">
 	</script>
+	<script type="text/javascript" src="..site_scripts/profiles_scripts.js"></script>
 </body>
 </html>
