@@ -66,14 +66,10 @@ width: 10px;
 	}
 }
 @media (min-width: 812px) {
-	.list-of-artists {
-	 /* width: 27vw;
-	 height: 86%;
-	 position: relative;
-	 overflow: scroll;
-	 display: grid;
-	 grid-auto-rows: 1.8em; */
-	 /* border: 2px solid #ce0000; */
+	.green {
+		width: 75vw;
+		top: 6.5em;
+    left: 12vw;
 	}
 	.image-viewer{
 		display: grid;

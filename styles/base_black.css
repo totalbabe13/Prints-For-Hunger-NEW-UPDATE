@@ -34,11 +34,18 @@
 }
 
 @media (min-width: 567px) {
-
     .nav-wrapper {
       grid-template-columns: 91vw 1fr;
     }
     .cart{
       height:3em;
     }
+}
+@media (min-width: 812px) {
+  .base_black {
+    width: 75vw;
+  }
+  .nav-wrapper {
+    grid-template-columns: 64vw 1fr;
+  }
 }

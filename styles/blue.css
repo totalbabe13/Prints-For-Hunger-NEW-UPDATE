@@ -62,6 +62,13 @@
 	}
 }
 
+@media (min-width: 812px) {
+  .blue {
+    width: 75vw;
+    left: 5vw;
+  }
+}
+
 @media (min-width: 813px) {
 	.image-grid {
 		grid-auto-rows: 12vw;
