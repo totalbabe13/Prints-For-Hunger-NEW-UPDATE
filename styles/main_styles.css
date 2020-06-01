@@ -43,6 +43,12 @@ body{
   width: 100vw;
   position: fixed;
 }
+.site-info {
+	color: red;
+}
+.site-info:hover{
+	filter: drop-shadow( 0 0 1px red);
+}
 /* - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* BREAK POINTS */
 @media (min-width: 319px) {

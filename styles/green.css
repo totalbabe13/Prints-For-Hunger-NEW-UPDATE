@@ -67,11 +67,22 @@ width: 10px;
 }
 @media (min-width: 812px) {
 	.green {
-		width: 75vw;
+		width: 68vw;
 		top: 6.5em;
     left: 12vw;
 	}
 	.image-viewer{
 		display: grid;
+		justify-content: center;
+		position: relative;
+    top: -87vh;
+    left: 23vw;
+    width: 67%;
+    height: 86%;
+    /* border: 1px solid blue; */
+	}
+	.spacer-green{
+		width: 100vw;
+		height: 3em;
 	}
 }

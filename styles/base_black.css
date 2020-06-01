@@ -43,7 +43,7 @@
 }
 @media (min-width: 812px) {
   .base_black {
-    width: 75vw;
+    width: 68vw;
   }
   .nav-wrapper {
     grid-template-columns: 64vw 1fr;

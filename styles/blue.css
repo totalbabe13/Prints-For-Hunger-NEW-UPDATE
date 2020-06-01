@@ -35,17 +35,17 @@
 	}
 
 	.thumbnail-image{
-		max-width: 130%;
-		max-height: 100%;
+		width: 150%;
+		/* height: 150%; */
 		justify-self: center;
 	}
 
 	.thumbnail-image.landscape {
-		margin: 0 7.8vw;
+		/* margin: 0 7.8vw; */
 	}
 
 	.thumbnail-image.portrait {
-		margin: 0 16vw;
+		/* margin: 0 16vw; */
 	}
 }
 
@@ -64,7 +64,7 @@
 
 @media (min-width: 812px) {
   .blue {
-    width: 75vw;
+    width: 68vw;
     left: 5vw;
   }
 }

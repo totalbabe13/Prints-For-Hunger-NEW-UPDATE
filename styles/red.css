@@ -33,15 +33,15 @@
 	}
 	.spacer{
 		width: 100vw;
-    height: 7em;
+    height: 12em;
 	}
 
 }
 
 @media (min-width: 812px) {
-	
+
 	.red {
-		width: 75vw;
+		width: 68vw;
 		top: 9.5em;
 		left: 23vw;
 	}
