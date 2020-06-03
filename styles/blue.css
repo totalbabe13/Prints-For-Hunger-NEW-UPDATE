@@ -4,17 +4,28 @@
 @media (min-width: 319px) {
   /* IMAGE GRID STYLES */
   .blue{
+    position: fixed;
+    width: 83%;
+    height: 100%;
+    top: 3em;
+    left: 0.5em;
+    border: 2px solid blue;
+    background-color: white;
+    z-index: 1;
     display: grid;
+  }
+
+  .blue-text {
+    color: blue;
   }
 	.image-grid {
     position: relative;
     top: 2em;
-    width: 95%;
-    height: 75%;
-    margin: 0 0 0 3.5%;
+    /* width: 95%; */
+    margin: 0 2em 6.5em 2em;
     display: grid;
     grid-auto-rows: 27vw;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 49% 49%;
     grid-gap: 0.4em;
     overflow: scroll;
     overflow-x: hidden;
@@ -22,7 +33,7 @@
 	}
   .image-cell {
 		height: 100%;
-    width: 95%;
+    /* width: 95%; */
     overflow: hidden;
     border: 1px solid;
 
@@ -64,7 +75,7 @@
 
 @media (min-width: 812px) {
   .blue {
-    width: 68vw;
+    width: 68%;
     left: 5vw;
   }
 }
@@ -73,7 +84,7 @@
 	.image-grid {
 		grid-auto-rows: 12vw;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 87%
+    /* height: 87% */
 	}
 	.thumbnail-image.landscape {
 		margin: 0 4.8vw;

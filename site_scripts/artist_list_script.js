@@ -1,4 +1,6 @@
 if (screen.width > 813) {
+console.log("artist list hover script");
+
 	let linkCollection = document.getElementsByClassName('link');
 	for (var i = 0; i < linkCollection.length; i++) {
 		linkCollection[i].addEventListener("mouseover", function(event) {

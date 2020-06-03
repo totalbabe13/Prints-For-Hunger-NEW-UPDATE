@@ -69,23 +69,8 @@ body{
 		height: 2em;
 		/* background-color: black; */
 	}
-	.blue {
-    position: fixed;
-    width: 83vw;
-    height: 100vh;
-    border: 2px solid blue;
-    top: 3em;
-    left: 0.5em;
-    background-color: white;
-    z-index: 1;
+	.blue {}
 
-}
-	.blue-text {
-		color: blue;
-		position: relative;
-		top: 1em;
-    left: 2em;
-	}
 
 	.green {
     position: fixed;
