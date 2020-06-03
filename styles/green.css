@@ -8,28 +8,22 @@
 	}
 		.green-text {
 			color: green;
-			position: relative;
-			top: 1em;
-			left: 2em;
-			margin-bottom: 1em;
+			margin: 2em 0 0 1em;
 		}
 	.list-of-artists {
-	width: 64vw;
-	height: 86%;
-	position: relative;
-	top: 4vh;
-	left: 4vw;
-	overflow: scroll;
-	display: grid;
-	grid-gap: 1vh;
-	grid-auto-rows: 1.8em;
-	/* border: 2px solid #ce0000; */
+	  width: 64vw;
+	  height: 86%;
+	  margin: 1em 0 0 1em;
+	  overflow: scroll;
+		overflow-x: hidden;
+	  display: grid;
+	  grid-gap: 0.30em;
+	  grid-auto-rows: 1.3em;
   }
 
 	.artist-profile-link {
 		text-decoration: none;
 		color: green;
-		/* border: 2px solid blue; */
 	}
 	.artist-profile-link:hover {
 		filter: drop-shadow(0px 0px 3px chartreuse);
@@ -84,5 +78,14 @@
 	.spacer-green{
 		width: 100vw;
 		height: 3em;
+	}
+}
+@media (min-width: 813px) {
+	.list-of-artists{
+		margin: 1em 0 0 2em;
+	}
+	.green-text {
+		color: green;
+		margin: 2em 0 0 2em;
 	}
 }

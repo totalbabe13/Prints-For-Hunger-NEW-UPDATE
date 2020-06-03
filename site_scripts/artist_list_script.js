@@ -9,6 +9,7 @@ console.log("artist list hover script");
 			console.log(linkedImage);
 			if (linkedImage) {
 				linkedImage.style.display = "unset";
+				// linkedImage.style.display = "block";
 			}
 		})
 	}

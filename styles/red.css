@@ -7,12 +7,11 @@
 	}
 	.red-text {
   		color: red;
+			margin: 2em 0 0 1em;
   	}
 
 	.red-text.title {
-		position: relative;
-		top: 1em;
-		left: 2em;
+		
 	}
 
 	.red-text.sub-title {
@@ -44,5 +43,8 @@
 		width: 68vw;
 		top: 9.5em;
 		left: 23vw;
+	}
+	.red-text {
+		margin: 2em 0 0 1em;
 	}
 }
