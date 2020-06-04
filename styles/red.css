@@ -3,6 +3,16 @@
 /* BREAK POINTS */
 @media (min-width: 319px) {
 	.red {
+		position: fixed;
+    width: 83vw;
+    height: 100vh;
+    border: 2px solid red;
+    background-color: white;
+    top: 8em;
+    left: 3em;
+    z-index: 2;
+    overflow: scroll;
+		overflow-x: hidden;
 		/* display: none; */
 	}
 	.red-text {
@@ -10,30 +20,15 @@
 			margin: 2em 0 0 1em;
 			text-align: left;
   	}
-
-	.red-text.title {
-
+	.red-link {
+		color: blue
 	}
-
-	.red-text.sub-title {
-		/* width: 95%;
-    margin: 0 auto; */
-	}
-
-	.red-text.about {
-    /* position: relative;
-    top: 1.4em;
-    margin: 0 auto 3em auto;
-    text-align: justify;
-    width: 95%; */
-		/* text-indent: 1em; */
-  }
-	.name {
-		/* margin-left: 2em; */
+	.red-link:visited{
+		color: red;
 	}
 	.spacer-red{
 		width: 100vw;
-    height: 12em;
+    height: 15em;
 	}
 
 }

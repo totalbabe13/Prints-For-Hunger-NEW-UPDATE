@@ -4,6 +4,14 @@
 }
 @media (min-width: 319px) {
 	.green{
+		position: fixed;
+    width: 83vw;
+    height: 100vh;
+    border: 2px solid #00ff01;
+    background-color: white;
+    top: 5.5em;
+    left: 1.5em;
+    z-index: 2;
 	  /* display: none;	 */
 	}
 		.green-text {
@@ -47,10 +55,10 @@
 }
 	.artist-image {
 	display: none;
-	max-height: 80%;
+	max-height: 60%;
 	max-width: 80%;
 	justify-self: center;
-	margin: 5% 0;
+	/* margin: 5% 0; */
  }
 }
 
