@@ -8,29 +8,30 @@
 	.red-text {
   		color: red;
 			margin: 2em 0 0 1em;
+			text-align: left;
   	}
 
 	.red-text.title {
-		
+
 	}
 
 	.red-text.sub-title {
-		width: 95%;
-    margin: 0 auto;
+		/* width: 95%;
+    margin: 0 auto; */
 	}
 
 	.red-text.about {
-    position: relative;
+    /* position: relative;
     top: 1.4em;
     margin: 0 auto 3em auto;
     text-align: justify;
-    width: 95%;
+    width: 95%; */
 		/* text-indent: 1em; */
   }
 	.name {
-		margin-left: 2em;
+		/* margin-left: 2em; */
 	}
-	.spacer{
+	.spacer-red{
 		width: 100vw;
     height: 12em;
 	}
