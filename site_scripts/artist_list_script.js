@@ -1,4 +1,4 @@
-if (screen.width > 813) {
+if (document.body.clientWidth > 813) {
 console.log("artist list hover script");
 
 	let linkCollection = document.getElementsByClassName('link');
@@ -8,8 +8,8 @@ console.log("artist list hover script");
 			let linkedImage = document.querySelector(`[data-image-id="${dataId}"]`)
 			console.log(linkedImage);
 			if (linkedImage) {
-				linkedImage.style.display = "unset";
-				// linkedImage.style.display = "block";
+				linkedImage.style.display = "inline";
+				linkedImage.style.maxWidth = "2000px"
 			}
 		})
 	}
