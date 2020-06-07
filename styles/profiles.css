@@ -153,7 +153,7 @@ figcaption a:visited {
 @media only screen and (min-width: 676px)  {
 	.artist-page-container {
     top:5em;
-		width: 99.7%
+		width: 99.8%
 	}
   .artist-work {
 		width: unset;
@@ -165,7 +165,7 @@ figcaption a:visited {
 @media only screen and (min-width: 813px)  {
 	.artist-page-container {
     top:5.5em;
-		width: 99.7%
+		width: 99.8%
 	}
 	.artist-work {
 		height: 40em;

@@ -9,7 +9,7 @@ console.log("artist list hover script");
 			console.log(linkedImage);
 			if (linkedImage) {
 				linkedImage.style.display = "inline";
-				linkedImage.style.maxWidth = "2000px"
+				linkedImage.style.maxWidth = "20em"
 			}
 		})
 	}
