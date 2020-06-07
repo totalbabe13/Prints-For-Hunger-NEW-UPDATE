@@ -33,12 +33,10 @@
 		text-decoration: none;
 		color: green;
 	}
-	/* .artist-profile-link:hover {
-		filter: drop-shadow(0px 0px 3px chartreuse);
-	} */
-	.artist-profile-link:hover img {
+
+	/* .artist-profile-link:hover img {
 		display: unset;
-	}
+	} */
 	.artist-text-item {
 		font-size: 1.1em;
     text-align: left;
@@ -59,6 +57,10 @@
 	max-width: 80%;
 	justify-self: center;
 	/* margin: 5% 0; */
+ }
+ .spacer-green{
+	 width: 100vw;
+	 height: 15em;
  }
 }
 
@@ -83,10 +85,7 @@
     height: 86%;
     /* border: 1px solid blue; */
 	}
-	.spacer-green{
-		width: 100vw;
-		height: 3em;
-	}
+
 }
 @media (min-width: 813px) {
 	.list-of-artists{
