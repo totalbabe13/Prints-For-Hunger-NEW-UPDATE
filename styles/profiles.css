@@ -107,9 +107,9 @@ figcaption a:visited {
 }
 
 @media (min-width: 800px) {
-  .add-item-button {
+  /* .add-item-button {
 		left: -2.5em;
-	}
+	} */
 }
 
 
@@ -121,7 +121,7 @@ figcaption a:visited {
 	}
 	.artist-work.portrait {
      /* width: 52vh; */
-		 width: 38vh
+		 /* width: 38vh; */
 	}
 
 	.image-wrapper {
@@ -136,7 +136,7 @@ figcaption a:visited {
 	}
 
 	.artist-work.portrait {
-     width: 50vh;
+     /* width: 50vh; */
 	}
 
 	.image-wrapper {
@@ -164,7 +164,7 @@ figcaption a:visited {
 
 @media only screen and (min-width: 813px)  {
 	.artist-page-container {
-    top:7em;
+    top:5.5em;
 		width: 99.7%
 	}
 	.artist-work {
