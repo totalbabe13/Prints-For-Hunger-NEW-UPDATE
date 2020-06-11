@@ -1,8 +1,9 @@
 @media (min-width: 319px) {
   .base_black {
     height: 100vh;
-    width: 100vw;
+    width: 83%;
     border: 2px solid;
+    border-bottom-color: white;
     background-color: #ffffff;
     display: grid;
   }
@@ -43,7 +44,7 @@
 }
 @media (min-width: 812px) {
   .base_black {
-    width: 68vw;
+    width: 68%;
   }
   .nav-wrapper {
     grid-template-columns: 64vw 1fr;

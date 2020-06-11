@@ -2,45 +2,57 @@
 /* - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* BREAK POINTS */
 @media (min-width: 319px) {
-	.red {
-		position: fixed;
-    width: 83vw;
-    height: 100vh;
-    border: 2px solid red;
-    background-color: white;
-    top: 8em;
-    left: 3em;
-    z-index: 2;
-    overflow: scroll;
-		overflow-x: hidden;
-		/* display: none; */
+    .red {
+        position: fixed;
+        width: 83%;
+        height: 100vh;
+        border: 2px solid red;
+        background-color: white;
+        top: 6.9em;
+        left: 3em;
+        z-index: 2;
+        overflow: scroll;
+        overflow-x: hidden;
+        /* display: none; */
 	}
-	.red-text {
-  		color: red;
-			margin: 2em 2em 0 1em;
-			text-align: left;
-  	}
-	.red-link {
-		color: red;
+    .red-text {
+        color: red;
+        margin: 0em 1em 0 1em;
+        text-align: left;
 	}
-	.red-link:visited{
-		color: red;
+
+	.text-block {
+		margin: 0em 1em 1em 1em;
 	}
-	.spacer-red{
-		width: 100vw;
-    height: 15em;
+	.red-header {
+		margin: 1em 0 1em 1em;
 	}
+    .red-link {
+        color: red;
+    }
+    .red-link:visited {
+        color: red;
+	}
+    .spacer-red {
+        width: 100vw;
+        height: 15em;
+    }
 
 }
-
+/* DESKTOP STYLES */
 @media (min-width: 812px) {
-
-	.red {
-		width: 68vw;
-		top: 9.5em;
-		left: 23vw;
+    .red {
+        width: 68%;
+        top: 9em;
+        left: 25.5%;
+    }
+    .red-text {
+		margin: 0em 2em 0em 2em;
 	}
-	.red-text {
-		margin: 2em 2em 0 2em;
+	.text-block {
+		margin: 0em 2em 2em 2em;
 	}
-}
+	
+	.red-header {
+		margin: 1.5em 0 1em 2em;	
+    }

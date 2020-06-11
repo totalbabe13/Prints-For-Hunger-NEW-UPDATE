@@ -1,97 +1,93 @@
 /* GREEN CSS STYLES */
-::-webkit-scrollbar {
-/* width: 10px; */
-}
 @media (min-width: 319px) {
-	.green{
-		position: fixed;
-    width: 83vw;
-    height: 100vh;
-    border: 2px solid #00ff01;
-    background-color: white;
-    top: 5.5em;
-    left: 1.5em;
-    z-index: 2;
-	  /* display: none;	 */
-	}
-		.green-text {
-			color: green;
-			margin: 2em 0 0 1em;
-		}
-	.list-of-artists {
-	  width: 64vw;
-	  height: 86%;
-	  margin: 1em 0 0 1em;
-	  overflow: scroll;
-		overflow-x: hidden;
-	  display: grid;
-	  grid-gap: 0.30em;
-	  grid-auto-rows: 1.3em;
-  }
+    .green {
+        position: fixed;
+        width: 83%;
+        height: 100vh;
+        border: 2px solid #32CD32;
+        background-color: white;
+        top: 4.6em;
+        left: 2em;
+        z-index: 2;
+        /* display: none;	 */
+    }
+    .green-text {
+        color: #32CD32;
+        margin: 0.5em 0 1em 1em;
+    }
+    .list-of-artists {
+        width: 64vw;
+        height: 86%;
+        margin: 1em 0 0 1em;
+        overflow: scroll;
+        overflow-x: hidden;
+        display: grid;
+        grid-gap: 0.30em;
+        grid-auto-rows: 1.3em;
+    }
 
-	.artist-profile-link {
-		text-decoration: none;
-		color: green;
-	}
+    .artist-profile-link {
+        text-decoration: none;
+        color: #32CD32;
+    }
 
-	/* .artist-profile-link:hover img {
+    /* .artist-profile-link:hover img {
 		display: unset;
 	} */
-	.artist-text-item {
-		font-size: 1.1em;
-    text-align: left;
-    /* margin: 2vw 1vw; */
-	}
-	.image-viewer {
-    position: relative;
-    /* top: -71vh; */
-    left: 23vw;
-    width: 72%;
-    height: 86%;
-    display: none;
-    /* border: 1px solid blue; */
+    .artist-text-item {
+        font-size: 1.1em;
+        text-align: left;
+        /* margin: 2vw 1vw; */
+    }
+    .image-viewer {
+        position: relative;
+        /* top: -71vh; */
+        left: 23vw;
+        width: 72%;
+        height: 86%;
+        display: none;
+        /* border: 1px solid blue; */
+    }
+    .artist-image {
+        display: none;
+        max-height: 60%;
+        max-width: 80%;
+        justify-self: center;
+    }
+    .spacer-green {
+        width: 100vw;
+        height: 15em;
+    }
 }
-	.artist-image {
-	display: none;
-	max-height: 60%;
-	max-width: 80%;
-	justify-self: center;
- }
- .spacer-green{
-	 width: 100vw;
-	 height: 15em;
- }
-}
-
 @media (min-width: 567px) {
-	.green-text {
-
-	}
+    
 }
+
+/* DESKTOP STYLES */
 @media (min-width: 812px) {
-	.green {
-		width: 68vw;
-		top: 6.5em;
-    left: 12vw;
-	}
-	.image-viewer{
-		display: grid;
-		justify-content: center;
-		position: relative;
-    top: -90%;
-    left: 23vw;
-    width: 67%;
-    height: 86%;
-    /* border: 1px solid blue; */
-	}
+    .green {
+        width: 68%;
+        top: 6em;
+        left: 17%;
+    }
+    .image-viewer {
+        display: grid;
+        justify-content: center;
+        position: relative;
+        top: -90%;
+        left: 23vw;
+        width: 67%;
+        height: 86%;
+        /* border: 1px solid blue; */
+    }
 
 }
 @media (min-width: 813px) {
-	.list-of-artists{
-		margin: 1em 0 0 2em;
-	}
-	.green-text {
-		color: green;
-		margin: 2em 0 0 2em;
-	}
+    .list-of-artists {
+        margin: 0 0 0 2em;
+    }
+    .green-text {
+        color: #32CD32;
+        margin: 1.5em 0 1em 2em;
+    }
 }
