@@ -1,24 +1,23 @@
 @media (min-width: 319px) {
   .base_black {
-    height: 100vh;
-    width: 100vw;
-    border: 2px solid;
+    height: 69%;
+    width: 83%;
+    border: 1px solid;
+    /* border-bottom-color: white; */
     background-color: #ffffff;
     display: grid;
   }
 
 	.nav-wrapper {
-    /* border: 1px solid; */
-    height: 2em;
+    /* height: 2em; */
     display: grid;
     grid-template-columns: 85vw 1fr;
   }
   header {
-		font-size: 1.1em;
-    font-family: sans-serif;
-		font-weight: 900;
+		font-weight: 400;
     position: fixed;
-    top: 0.5em;
+    top: 0sem;
+    margin: 0.5em 0 0 1em;
     color: black;
 	}
   .snipcart-checkout {
@@ -32,6 +31,12 @@
 		height: 2em;
 	}
 }
+@media only screen and (max-height: 414px){
+  .base_black {
+      height: 100%;
+      border-bottom-color: white;
+  }
+}
 
 @media (min-width: 567px) {
     .nav-wrapper {
@@ -41,11 +46,22 @@
       height:3em;
     }
 }
-@media (min-width: 812px) {
+@media (min-width: 815px) {
   .base_black {
-    width: 68vw;
+    width: 83%;
+    height: 83%;
+    border: 1px solid black;
   }
   .nav-wrapper {
     grid-template-columns: 64vw 1fr;
+  }
+}
+
+@media (min-width: 815px) {
+  .base_black {
+    width: 68%;
+    height: 100%;
+    border: 1px solid black;
+    border-bottom-color: white;
   }
 }

@@ -1,173 +1,231 @@
 
 figcaption a {
-	color: blue;
+    color: black;
 }
-
 figcaption a:visited {
-	color: blue;
+    color: black;
 }
+/* .cart {
+	display: none;
+} */
 
-@media only screen and (min-width: 319px)  {
+
+@media only screen and (min-width: 319px) {
 	/* BACKGROUND CSS */
-	 .tab-layer {
-		 height: 100%;
-     width: 70%;
-		 position: absolute;
-		 background-color: white;
-	 }
-	 .blue-fake{
-		 border: 2px solid blue;
-		 top: 2em;
-	 }
-	 .green-fake{
-		 border: 2px solid green;
-		 top: 2.7em;
-     left: 4em;
-	 }
-	 .red-fake{
-		 border: 2px solid red;
-		 top: 3.3em;
-     left: 8em;
-	 }
+	header, p, figcaption {
+		font-size: 0.7em;
+		font-family: helvetica;
+	}
+    
+    .blue-fake {
+        position: fixed;
+        width: 83%;
+        height: 83%;
+        top: 1.5em;
+        left: 0.7em;
+        border: 1px solid blue;
+        background-color: white;
+        z-index: 1;
+        display: grid;
+    }
+    .green-fake {
+        position: fixed;
+        width: 83%;
+        height: 83%;
+        border: 1px solid #32CD32;
+        background-color: white;
+        top: 3em;
+        left: 1.4em;
+        z-index: 2;
+    }
+    .red-fake {
+        position: fixed;
+        width: 83%;
+        height: 83%;
+        border: 1px solid red;
+        background-color: white;
+        top: 4.5em;
+        left: 2.1em;
+        z-index: 2;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
 
-	 .fake-text {
-		 margin: 0.5em;
-	 }
-	 .blue-text-fake{
-		 color: blue;
-	 }
-	 .green-text-fake{
-		 color: green;
-	 }
-	 .red-text-fake{
-		 color:red;
-	 }
-	/* BACKGROUND CSS  */
+    .fake-text {
+        margin: 0.5em 0 0 1em;
+    }
+    .blue-text-fake {
+        color: blue;
+    }
+    .green-text-fake {
+        color: #32CD32;
+    }
+    .red-text-fake {
+        color: red;
+    }
+    /*  ARTIST PAGE STYLES  */
 
-	.artist-page-container {
+    .artist-page-container {
 		position: absolute;
-    top: 4.5em;
-		width: 100%;
-		height: 90vh;
-		border: 3px solid;
+		top: 6em;
+		left: 2.8em;
+		width: 83%;
+		height: 83%;
+		border: 1px solid;
 		background-color: white;
 		justify-self: center;
 		overflow-y: scroll;
-		/* display: none; */
+		z-index: 2;
 	}
-	.image-wrapper{
-		display: grid;
-		margin-top: 1.5em;
-	}
-	.artist-work {
+    .image-wrapper {
+        display: grid;
+    }
+    .artist-work {
+        position: relative;
+        margin: 1em 0 0 0;
+        width: 85%;
+        justify-self: center;
+    }
+    .image-caption {
+        position: relative;
+        height: 1.2em;
+        top: 1.5em;
+        left: 7%;
+        font-weight: 400;
+        font-size: 0.8em;
+    }
+    .button-container {}
+
+    .add-item-button {
 		position: relative;
-		top: 1vh;
-    width: 85%;
-		justify-self: center;
-	}
-	.image-caption {
-    position: relative;
-    height: 1.2em;
-    top: 1.5em;
-    left: 4vw;
-    font-weight: 100;
-    font-family: sans-serif;
-    font-style: italic;
-}
-	.button-container{
-		display: grid;
-		justify-items: center;
-		left: unset;
-	}
-	.add-item-button {
-		position: relative;
-    width: 69px;
-    height: 23px;
-    border: 3px solid;
-    border-radius: 37px;
+        width: 4em;
+        height: 2.1em;
+        border: 1px solid; 
 		background-color: white;
-	}
-	.profile-spacer{
-		height: 23vh;
-		width: 99vw;
-	}
+    }
+    .profile-spacer {
+        height: 10em;
+        /* width: 99vw; */
+    }
 }
 
-@media only screen and (min-width: 567px) and (min-height: 320px)  {
-	.green-fake{}
-	.red-fake{}
-	.artist-page-container{
-	top: 4.5em;
-	width: 100%
+@media only screen and (max-height: 414px){
+    .tab-layer {
+        height: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 813px) {
+	header, p, figcaption {
+        font-size: 1em;
+        line-height: 1.4em;
+        font-weight: 400;
+	}
+	.tab-layer, .artist-page-container{
+        position: fixed;
+        width: 68%;
+        height: 100%;
+	}
+	.blue-fake {
+        left: 8.5%;
+        top: 2em;
+    }
+    .green-fake {
+        top: 4em;
+        left: 17%;
+    }
+    .red-fake {
+        top: 6em;
+        left: 25.5%;
+    }
+	
+	.artist-page-container {
+		top: 8em;
+        left: 12em;
+	}
+	.image-wrapper {
+		display: block;
+	}
+    .artist-work.portrait {
+        width: 59%;
+        max-width: 28em;
+        margin: 2em 0 0 2em;
+        float: left;
+	}
+	.artist-work.landscape {
+        width: 73%;
+        float: left;
+        /* max-width: 48em; */
+        margin: 2em 0 0 2em;
+		
+	}
+	.image-caption{
+		top: 2em;
+        left: 2em;
+        margin: 0.5em 0 0 0;
+        width: 93%;
+        height: auto;
 	}
 	.profile-spacer {
-		height: 23vh;
-		width: 99vw;
-	}
+        height: 16em;
+    }
+} 
+
+@media only screen and (min-height: 813px) and (min-width: 700px) {
+    .arrow-nav {
+        height: 40%;
+        width: 100%;
+        /* border: 6px solid orange; */
+        position: absolute;
+        top: 40%;
+        z-index: 4;
+    }
+    
+    .left {
+        position: relative;
+        width: 45%;
+        height: 100%;
+        /* border: 3px solid blue; */
+        float: left;
+        cursor: url(../artist_pages/left.png),auto;	
+    }
+    .right {
+        position: relative;
+        width:45%;
+        height: 100%;
+        /* border: 3px solid red; */
+        float: right;
+        cursor:url(../artist_pages/right.png),auto;	
+    }
 }
 
-@media (min-width: 800px) {
-  /* .add-item-button {
-		left: -2.5em;
-	} */
-}
-
-
-
-@media only screen and (min-width: 374px) and (min-height: 811px)  {
-	.artist-page-container {
-   height: 100%;
-	 width: 99%
-	}
+@media only screen and (min-height: 950px) {
+    
 	.artist-work.portrait {
-     /* width: 52vh; */
-		 /* width: 38vh; */
-	}
-
-	.image-wrapper {
-		margin-top:5.5em;
+        max-width: 31.5em;
 	}
 }
 
-
-@media only screen and (min-width: 520px)  {
-	.artist-page-container {
-    top:5em;
-	}
-
+@media only screen and (min-height: 1050px) {
 	.artist-work.portrait {
-     /* width: 50vh; */
-	}
-
-	.image-wrapper {
-		margin-top:0.5em;
-	}
-	.image-caption {
-		/* top:3.6em; */
-	}
-	.profile-spacer{
-		height: 43vh;
+        max-width: 35.5em;
 	}
 }
 
-@media only screen and (min-width: 676px)  {
-	.artist-page-container {
-    top:5em;
-		width: 99.8%
-	}
-  .artist-work {
-		width: unset;
-		height: 33em;
-	}
-
-}
-
-@media only screen and (min-width: 813px)  {
-	.artist-page-container {
-    top:5.5em;
-		width: 99.8%
-	}
-	.artist-work {
-		height: 40em;
+@media only screen and (min-height: 1200px) {
+	.artist-work.portrait {
+        max-width: 41.5em;
 	}
 }
+@media only screen and (min-height: 1350px) {
+	.artist-work.portrait {
+        max-width: 47.5em;
+	}
+}
+@media only screen and (min-height: 1500px) {
+	.artist-work.portrait {
+        max-width: 64em;
+	}
+}
+

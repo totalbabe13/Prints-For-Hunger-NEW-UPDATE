@@ -1,6 +1,3 @@
-
-
-
 let tabLayer   = document.getElementsByClassName('tab-layer');
 let blueTab    = tabLayer[0];
 let greenTab   = tabLayer[1];
@@ -22,3 +19,4 @@ redTab.addEventListener('click',function(){
   console.log("red tab ");
   window.open ('../index.html','_self',false)
 })
+
