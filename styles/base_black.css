@@ -1,9 +1,16 @@
 @media (min-width: 319px) {
   .base_black {
+<<<<<<< HEAD
     height: 69%;
     width: 83%;
     border: 1px solid;
     /* border-bottom-color: white; */
+=======
+    height: 100vh;
+    width: 83%;
+    border: 2px solid;
+    border-bottom-color: white;
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
     background-color: #ffffff;
     display: grid;
   }
@@ -48,9 +55,13 @@
 }
 @media (min-width: 815px) {
   .base_black {
+<<<<<<< HEAD
     width: 83%;
     height: 83%;
     border: 1px solid black;
+=======
+    width: 68%;
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
   }
   .nav-wrapper {
     grid-template-columns: 64vw 1fr;

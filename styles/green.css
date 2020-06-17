@@ -1,11 +1,19 @@
 /* GREEN CSS STYLES */
+<<<<<<< HEAD
 
+=======
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
 @media (min-width: 319px) {
     .green {
         position: fixed;
         width: 83%;
+<<<<<<< HEAD
         height: 69%;
         border: 1px solid #32CD32;
+=======
+        height: 100vh;
+        border: 2px solid #32CD32;
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
         background-color: white;
         top: 4.6em;
         left: 2em;
@@ -15,6 +23,7 @@
     .green-text {
         color: #32CD32;
         margin: 0.5em 0 1em 1em;
+<<<<<<< HEAD
         font-size: 0.7em;
         font-weight: 400;
     }
@@ -42,10 +51,44 @@
     }
     .image-viewer {
         position: relative;
+=======
+    }
+    .list-of-artists {
+        width: 64vw;
+        height: 86%;
+        margin: 1em 0 0 1em;
+        overflow: scroll;
+        overflow-x: hidden;
+        display: grid;
+        grid-gap: 0.30em;
+        grid-auto-rows: 1.3em;
+    }
+
+    .artist-profile-link {
+        text-decoration: none;
+        color: #32CD32;
+    }
+
+    /* .artist-profile-link:hover img {
+		display: unset;
+	} */
+    .artist-text-item {
+        font-size: 1.1em;
+        text-align: left;
+        /* margin: 2vw 1vw; */
+    }
+    .image-viewer {
+        position: relative;
+        /* top: -71vh; */
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
         left: 23vw;
         width: 72%;
         height: 86%;
         display: none;
+<<<<<<< HEAD
+=======
+        /* border: 1px solid blue; */
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
     }
     .artist-image {
         display: none;
@@ -57,6 +100,7 @@
         width: 100vw;
         height: 15em;
     }
+<<<<<<< HEAD
     
 }
 /* MOBILE LANDSCAPE */
@@ -66,6 +110,12 @@
         border-bottom-color: white;
     }
   }
+=======
+}
+@media (min-width: 567px) {
+    
+}
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
 
 /* DESKTOP STYLES */
 @media (min-width: 812px) {
@@ -87,6 +137,7 @@
 
 }
 @media (min-width: 813px) {
+<<<<<<< HEAD
     .green {
         height: 100%;
     }
@@ -100,11 +151,17 @@
         font-weight: 400;
         line-height: 1.4em;
     }
+=======
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
     .list-of-artists {
         margin: 0 0 0 2em;
     }
     .green-text {
+<<<<<<< HEAD
         /* color: #32CD32; */
+=======
+        color: #32CD32;
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
         margin: 1.5em 0 1em 2em;
     }
 }

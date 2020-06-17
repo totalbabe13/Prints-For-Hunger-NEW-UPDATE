@@ -34,14 +34,22 @@ table {
 
  /* - - - - END OF RESET - - - - - -  */
 
+<<<<<<< HEAD
  /* h2,
+=======
+ h2,
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
  header,
  p {
 	 font-family: "helvetica";
 	 font-weight: 400;
 	 font-size: 1em;
 	 line-height: 1.4em;
+<<<<<<< HEAD
  } */
+=======
+ }
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
  body {
 	 height: 100vh;
 	 width: 100vw;
@@ -59,6 +67,7 @@ table {
  @media (min-width: 319px) {
 	header {
 		margin-left: 1em;
+<<<<<<< HEAD
 	}
 	 .base_black {
 		 height: 100vh;
@@ -89,6 +98,30 @@ table {
 		 top: 0;
 		 font-family: sans-sans-serif;
 	 }
+=======
+	}
+	 .base_black {
+		 height: 100vh;
+		 width: 100vw;
+		 border: 2px solid;
+		 background-color: #ffffff;
+	 }
+	 .snipcart-checkout {
+		 border: unset;
+		 background-color: transparent;
+	 }
+	 .cart {
+		 height: 2em;
+		 /* background-color: black; */
+	 }
+ }
+ @media (min-width: 812px) {
+	 header {
+		 margin-left: 2em;
+		 top: 0;
+		 font-family: sans-sans-serif;
+	 }
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
 	 .cart {
 		 height: 3em;
 	 }

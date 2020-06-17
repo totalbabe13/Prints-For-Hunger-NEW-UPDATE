@@ -5,8 +5,13 @@
     .red {
         position: fixed;
         width: 83%;
+<<<<<<< HEAD
         height: 69%;
         border: 1px solid red;
+=======
+        height: 100vh;
+        border: 2px solid red;
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
         background-color: white;
         top: 6.9em;
         left: 3em;
@@ -19,6 +24,7 @@
         color: red;
         margin: 0em 1em 0 1em;
         text-align: left;
+<<<<<<< HEAD
         font-size: 0.7em;
         font-weight: 400;
 	}
@@ -26,6 +32,9 @@
         background-color: red;
         color: white;
     }
+=======
+	}
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
 
 	.text-block {
 		margin: 0em 1em 1em 1em;
@@ -45,6 +54,7 @@
     }
 
 }
+<<<<<<< HEAD
  /* MOBILE LANDSCAPE */
 @media only screen and (max-height: 414px){
     .red {
@@ -52,6 +62,8 @@
        
     }
   }
+=======
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
 /* DESKTOP STYLES */
 @media (min-width: 812px) {
     .red {
@@ -60,10 +72,14 @@
         left: 25.5%;
     }
     .red-text {
+<<<<<<< HEAD
         margin: 0em 2em 0em 2em;
         font-size: 1em;
         font-weight: 400;
         line-height: 1.4em;
+=======
+		margin: 0em 2em 0em 2em;
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
 	}
 	.text-block {
 		margin: 0em 2em 2em 2em;
@@ -72,6 +88,7 @@
 	.red-header {
 		margin: 1.5em 0 1em 2em;	
     }
+<<<<<<< HEAD
 }
 
 @media (min-width: 815px) {
@@ -79,3 +96,5 @@
         height: 100%;
     }
 }
+=======
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d

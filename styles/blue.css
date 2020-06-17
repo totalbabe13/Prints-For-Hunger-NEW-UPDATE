@@ -4,14 +4,22 @@
     .blue {
         position: fixed;
         width: 83%;
+<<<<<<< HEAD
         height: 69%;
         top: 2.3em;
         left: 1em;
         border: 1px solid blue;
+=======
+        height: 100%;
+        top: 2.3em;
+        left: 1em;
+        border: 2px solid blue;
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
         background-color: white;
         z-index: 1;
         display: grid;
     }
+<<<<<<< HEAD
 
     .blue-text {
         color: blue;
@@ -41,6 +49,38 @@
 
     .thumbnail-image {
         width: 65%;
+=======
+
+    .blue-text {
+        color: blue;
+        margin: 0.5em 0 1em 1em;
+    }
+    .image-grid {
+        position: relative;
+        margin: 0 1em 5.5em;
+        display: grid;
+        grid-auto-rows: 27vw;
+        grid-template-columns: 49% 49%;
+        grid-gap: 0.4em;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .image-cell {
+        height: 100%;
+        /* width: 95%; */
+        overflow: hidden;
+        border: 1px solid;
+    }
+    .image-link-container {
+        display: grid;
+        height: inherit;
+        width: inherit;
+    }
+
+    .thumbnail-image {
+        width: 150%;
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
         justify-self: center;
     }
 }
@@ -64,6 +104,7 @@
     }
 }
 
+<<<<<<< HEAD
 /* MOBILE LANDSCAPE */
 @media only screen and (max-height: 414px){
     .blue {
@@ -77,6 +118,10 @@
     .blue {
         height: 100%;
     }
+=======
+/* DESKTOP STYLES */
+@media (min-width: 813px) {
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
     .blue-text {
         margin: 1.5em 0 1em 2em;
     }
@@ -103,8 +148,11 @@
     .thumbnail-image.portrait {
         margin: 0 6.3vw;
     }
+<<<<<<< HEAD
 }
 .blue-text::selection {
     background-color: blue;
     color: white;
+=======
+>>>>>>> cb9241f5b3276ca515658b6644f08ba29fe1e46d
 }
